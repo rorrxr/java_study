@@ -1,0 +1,12 @@
+package chapter2;
+
+public class OverflowEX {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// int형 범위 : -2,147,483,648 ~ 2,147,483,647 	총 10자리
+		int num1 = 1234567890;
+	}
+
+}
