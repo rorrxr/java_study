@@ -10,7 +10,7 @@ public class CharacterEx2 {
 		// 실제 기억장소에는 코드(ascii code, uni-code)값으로 저장된다.
 		
 		char ch1 = '한'; // 두글자 쓰게 된다면 오류가 발생한다.
-		char ch2 = '\ud55C'; // \\u 유니코드 D55C 16진수값
+		char ch2 = '\ud55C'; // \\u 유니코드 D55C 16진수값, 백슬래시는 키보드 원화와 같다.
 
 		System.out.println(ch1);
 		System.out.println(ch2);

@@ -1,0 +1,15 @@
+package chapter2;
+
+public class Constant {
+
+	public static void main(String[] args) {
+		// 상수 선언하기
+		// 변수와 의미가 다르다. 차이점을 공부해야 한다.
+		
+		final int MAX_NUM = 100; // 상수
+		final int MAX_NUM = 100; // 상수
+		
+
+	}
+
+}

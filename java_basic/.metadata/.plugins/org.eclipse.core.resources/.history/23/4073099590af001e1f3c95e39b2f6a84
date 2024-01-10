@@ -1,0 +1,8 @@
+package chapter2;
+
+public class ExpilicitConversion {
+	public static void main(String[] args) {
+		// 명시적 형변환 예제
+		
+	}
+}

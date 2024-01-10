@@ -1,0 +1,14 @@
+package chapter2;
+
+public class DoubleEx1 {
+
+	public static void main(String[] args) {
+		
+		// 실수형 데이터타입 - 정수형 데이터타입 표현 방식을 사용하지 않고, 부동 소수점 표현 방식으로 실수값을 표현한다.
+		// float(4byte), double(8byte)
+		
+		double dnum = 3.14;
+
+	}
+
+}
