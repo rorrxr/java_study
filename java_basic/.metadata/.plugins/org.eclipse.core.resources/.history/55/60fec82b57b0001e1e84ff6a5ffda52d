@@ -1,0 +1,20 @@
+package chapter5.classpart2;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// 
+		Student st1 = new Student();
+		
+		
+		
+		st1.studentID = 1; 
+		st1.studentName = "홍길동";
+		st1.grade = 3;
+		st1.address = "노원구";
+		
+		st1.getStudentName();
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package chapter5.classpart;
+
+public class PersonTest {
+	public static void main(String[] args) {
+		// Person 클래스 사용 - Person 객체 생성
+		// 클래스 사용 방법 - 클래스명 변수명 = new 클래스명();
+		
+		Person ps1 = new Person(); // 기억 장소 생성
+		Person ps2 = new Person(); // 기억 장소 생성
+		Person ps3 = new Person(); // 기억 장소 생성
+		
+		
+	}
+}

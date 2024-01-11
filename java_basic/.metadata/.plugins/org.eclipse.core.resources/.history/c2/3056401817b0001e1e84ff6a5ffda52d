@@ -1,0 +1,24 @@
+package chapter3.operator;
+
+public class OperationEx2 {
+	public static void main(String[] args) {
+		// 증감연산자, ++ or --
+		// 변수 앞 또는 뒤에 사용하여, 동작 순서가 달라진다.
+		
+		int gameScore = 150;
+		// gameScore + 1 값을 lastScore1에 대입
+		int lastScore1 = ++gameScore; // 151
+		
+		System.out.println(lastScore1);
+		
+		// gameScore - 값을 lastScore2에 대입
+		int lastScore2 = --gameScore; // 149
+		System.out.println(lastScore2);
+		
+		int myAge = 27;
+		boolean value = (myAge > 25);
+		System.out.println(value);
+		
+		
+	}
+}

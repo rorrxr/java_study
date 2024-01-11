@@ -1,0 +1,28 @@
+package chapter4.ifexample;
+
+public class SwitchCase {
+
+	public static void main(String[] args) {
+		// 선택문 : switch
+		
+		int ranking = 1; // 1, 2, 3 기타 이외의 값
+		char medalColor; 
+		
+		switch(ranking) {
+		case 1: 
+			medalColor = 'G';
+			break;
+
+		case 2: 
+			medalColor = 'S';
+			break;
+		case 3: 
+			medalColor = 'B';
+			break;
+		default: 
+			break;
+		}
+
+	}
+
+}

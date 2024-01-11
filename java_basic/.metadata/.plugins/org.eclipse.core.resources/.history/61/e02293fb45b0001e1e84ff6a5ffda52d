@@ -1,0 +1,8 @@
+package chapter5.classpart;
+
+public class Product {
+	String p_name;
+	int p_code;
+	int p_price;
+	String p_desc;
+}

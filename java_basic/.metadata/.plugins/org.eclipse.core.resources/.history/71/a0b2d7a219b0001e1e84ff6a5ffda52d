@@ -1,0 +1,19 @@
+package chapter3.operator;
+
+public class OperationEx3 {
+	public static void main(String[] args) {
+		// 논리연산자, && || !
+		int num1 = 10;
+		int i = 2;
+		
+		// num1에 10을 더한 값이 10보다 큰지, 그리고 i에 2를 더한 값이 10보다 큰 것을 비교
+		// 1 F & 2 F = False
+		// 1 T & 2 F = False
+		// 1 T & 2 T = True
+		//						1						2
+		boolean value = (num1 = num1 + 10) < 10 && (i = i + 2) < 10;
+		System.out.println(value);
+		System.out.println(num1);
+		System.out.println(i);
+	}
+}
