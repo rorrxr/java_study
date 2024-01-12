@@ -1,0 +1,26 @@
+package chapter6.staticex;
+
+public class Student {
+	
+	// 필드 선언 (멤버 변수)
+	// [접근자] [static] 데이터타입 변수이름;
+	
+	// 정적 필드(static) or non-instance 필드 : 메모리가 static area method area
+	// 객체 생성보다 먼저 기억장소가
+	static int serialNum;
+	
+	// 인스턴스 필드 : 메모리가 힙 영역
+ 	
+	int studentId;
+	String studentName;
+	int grade;
+	String address;
+	
+	public String getStudentName() {
+		return studentName;
+	}
+	
+	public void setStudentName() {
+		
+	}
+}

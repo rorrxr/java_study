@@ -1,0 +1,7 @@
+package chapter6.thisex;
+
+public class BirthDay {
+	int day;
+	int month;
+	int year;
+}

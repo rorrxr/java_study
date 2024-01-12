@@ -1,0 +1,12 @@
+package chapter6.cooperation;
+
+public class Subway {
+	public String lineNumber; // 지하철 노선 번호
+	public int passengerCount; // 승객 정원 수
+	public int money; // 수입 액
+	
+	public Subway(String lineNumber) {
+		this.lineNumber = lineNumber;
+	}
+	
+}

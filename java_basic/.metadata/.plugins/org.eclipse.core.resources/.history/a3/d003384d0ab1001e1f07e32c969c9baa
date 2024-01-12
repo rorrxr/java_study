@@ -1,0 +1,31 @@
+package chapter6.thisex;
+
+// 하나의 파일 안에서 클래스가 여러개 존재할 경우 public은 하나여야 한다.
+// 그 클래스는 파일명과 같아야 한다.
+
+
+// this : BirthDay 클래스로 생성될 힙 영역의 메모리. 즉, 인스턴스를 가리키는 의미이다. 
+public class BirthDay {
+	int day;
+	int month;
+	int year;
+	
+	// year 필드를 위한 setter 메서드
+	
+	public void setYear(int year) {
+		this.year = year;
+	}
+	
+	public void printThis() {
+		System.out.println(this);
+	}
+}
+
+class BirthDayTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

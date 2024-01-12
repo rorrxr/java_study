@@ -4,10 +4,36 @@ public class StudentTest {
 
 	public static void main(String[] args) {
 		// 
-		Student st1 = new Student();
+		Student stu1 = new Student();
 		
 		// stu1 객체가 주소를 가지고 힙 영역의 studentName 필드에 해당하는 곳에 "홍길동 저장"
-		st1.studentName = "홍길동"; 
+		stu1.studentName = "홍길동"; 
+		stu1.studentID = 1; 
+		stu1.grade = 1;
+		stu1.address = "노원구";
+		
+		stu1.getStudentName();
+		
+		String name1 = stu1.getStudentName(); // 홍길동
+		
+		Student stu2; // 스택 영역에 메모리 생성이 된다. null. 참조하는 것이 없다.
+		stu2 = new Student();
+		
+		stu2.studentID = 2;
+		stu2.studentName = "이순신";
+		stu2.grade = 3;
+		stu2.address = "전라도";
+		
+		
+		String name2 = stu2.getStudentName(); // 이순신
+		
+		System.out.println(name1);
+		System.out.println(name2);
+		
+		// stu1 stu2 : 힙영역에 생성된 주소를 참조하는 값
+		
+		System.out.println("stu1 : " + stu1);
+		System.out.println("stu2 : " + stu2);
 		
 		/*
 			 Student stu1;
@@ -25,10 +51,6 @@ public class StudentTest {
 		// stu1에 힙영역에 생성된 기억장소의 주소가 대입된다.
 		// 번외로, main() 메서드 안에 사용한 기온 데이터타입 8개는 스택 영역에 메모리 생성하고, 데이터가 관리된다.
 		
-		st1.studentID = 1; 
-		st1.grade = 3;
-		st1.address = "노원구";
 		
-		st1.getStudentName();
 	}
 }

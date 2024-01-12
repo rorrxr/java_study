@@ -1,0 +1,11 @@
+package chapter6.staticex;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// static 영역에 static 필드 또는 메서드는 객체 생성과 상관없이 자동으로 JVM에 의하여 기억장소가 생성된다.
+		
+		Student stu1 = new Student(); // 힙 영역에 인스턴스 필드와 메서드를 가지고 기억장소가 생성된다.
+	}
+
+}

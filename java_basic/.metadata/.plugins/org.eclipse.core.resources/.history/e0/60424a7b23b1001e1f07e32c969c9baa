@@ -1,0 +1,37 @@
+package chapter6.staticex;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// static 영역에 static 필드 또는 메서드는 객체 생성과 상관없이 자동으로 JVM에 의하여 기억장소가 생성된다.
+		
+		Student stu1 = new Student(); // 힙 영역에 인스턴스 필드와 메서드를 가지고 기억장소가 생성된다.
+		
+		stu1.setStudentName("손흥민");
+		System.out.println(Student.serialNum); // 0
+		Student.serialNum++; // 1
+		// Student.serialNum = 1; // stu1.serialNum = 1로 대입하면 안 된다. C는 허용하지만 Java는 허용하지 않는다.
+		
+		
+		Student stu2 = new Student(); // 힙 영역에 인스턴스 필드와 메서드를 가지고 기억장소가 생성된다.
+		
+		stu2.setStudentName("이강인");
+		System.out.println(Student.serialNum); // 1
+		Student.serialNum++; // 2
+		
+		
+		Student stu3 = new Student(); // 힙 영역에 인스턴스 필드와 메서드를 가지고 기억장소가 생성된다.
+		
+		stu3.setStudentName("김민재");
+		System.out.println(Student.serialNum); // 2
+		Student.serialNum++; // 3
+		
+		Student stu4 = new Student(); // 힙 영역에 인스턴스 필드와 메서드를 가지고 기억장소가 생성된다.
+		
+		stu3.setStudentName("황희찬");
+		System.out.println(Student.serialNum); // 3
+		Student.serialNum++;
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package chapter5.constructor;
+
+public class PersonTest2 {
+	public static void main(String[] args) {
+		Person p1 = new Person(); //객체 생성 구문
+
+		System.out.println(p1.name);
+		System.out.println(p1.height);
+		System.out.println(p1.weight);
+	}
+}

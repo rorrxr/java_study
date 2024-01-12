@@ -1,0 +1,24 @@
+package chapter6.thisex;
+
+class Person{
+	String name;
+	int age;
+	
+	Person(){
+		
+	}
+	
+	Person(String name, int age){
+		this.name = name;
+		this.age = age;
+	}
+}
+
+public class CallAnotherConst {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

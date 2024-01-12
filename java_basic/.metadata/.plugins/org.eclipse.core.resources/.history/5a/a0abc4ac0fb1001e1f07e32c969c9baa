@@ -1,0 +1,7 @@
+package chapter6.cooperation;
+
+public class Student {
+	public String studentName;
+	public int grade;
+	public int money;
+}

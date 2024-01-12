@@ -1,0 +1,13 @@
+package chapter6.thisex;
+
+public class BirthDay {
+	int day;
+	int month;
+	int year;
+	
+	// year 필드를 위한 setter 메서드
+	
+	public void setYear(int year) {
+		year = year;
+	}
+}

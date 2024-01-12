@@ -1,0 +1,19 @@
+package chapter5.constructor;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//stu1 : 기본생성자 출력
+		
+		
+		
+		// stu2 : 생성자1 홍길동 출력
+		
+		
+		
+		// stu3 : 생성자 2 홍길동, 노원구 출력
+	}
+
+}

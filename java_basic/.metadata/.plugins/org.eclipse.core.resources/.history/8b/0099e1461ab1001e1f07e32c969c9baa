@@ -1,0 +1,13 @@
+package chapter6.staticex;
+
+public class Student {
+	
+	// 필드 선언 (멤버 변수)
+	// [접근자] static 데이터타입 변수이름;
+	
+	int serialNum;
+	int studentId;
+	int grade;
+	String address;
+	
+}
