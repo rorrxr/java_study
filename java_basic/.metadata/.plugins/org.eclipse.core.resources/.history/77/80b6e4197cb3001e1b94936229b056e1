@@ -1,0 +1,7 @@
+package chapter8.inheritance;
+
+public class OverridingTest3 {
+	public static void main(String[] args) {
+		
+	}
+}

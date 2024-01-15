@@ -1,0 +1,8 @@
+package chapter8.inheritance;
+
+public class OverridingTest3 {
+	public static void main(String[] args) {
+		int price = 10000;
+		Customer customer = new Customer();
+	}
+}

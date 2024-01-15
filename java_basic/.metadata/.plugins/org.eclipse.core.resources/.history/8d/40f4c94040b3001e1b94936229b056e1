@@ -1,0 +1,9 @@
+package chapter6.singleton;
+
+public class CompanyTest {
+	public static void main(String[] args) {
+		// 객체를 생성
+		// Company에서 생성자를 private로 가지고 있기 때문에 접근할 수 없다.
+		Company com1 = new Company();
+	}
+}

@@ -1,0 +1,5 @@
+package chapter8.inheritance;
+
+public class Customer {
+
+}

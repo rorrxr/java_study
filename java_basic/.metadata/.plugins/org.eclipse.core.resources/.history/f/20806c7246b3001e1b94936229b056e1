@@ -1,0 +1,11 @@
+package chapter7.array;
+
+public class ArrayTest2 {
+	public static void main(String[] args) {
+		// 참조타입은 기본값이 null로 초기화된다.
+		// 배열 기본값이 null로 초기화된다.
+		double[] data = new double[5];
+		
+		
+	}
+}

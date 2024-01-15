@@ -1,0 +1,10 @@
+package chapter7.array;
+
+// 배열 : 동일한 데이터타입으로 구성된 연속적인 기억장소를 하나로 관리
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

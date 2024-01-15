@@ -1,0 +1,14 @@
+package chapter7.array;
+
+public class BookArray {
+	public static void main(String[] args) {
+		Book b1 = new Book();
+		Book b2 = new Book();
+		Book b3 = new Book();
+		Book b4 = new Book();
+		Book b5 = new Book();
+		
+		// 배열 요소 5개로 객체 배열 생성
+		Book[] library = new Book[5]; // library[0] ...... library[4]
+	}
+}

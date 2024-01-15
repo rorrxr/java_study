@@ -1,0 +1,12 @@
+package chapter8.inheritance;
+
+public class OverridingTest3 {
+	public static void main(String[] args) {
+		int price = 10000;
+		Customer customer = new Customer(10010, "이순신");
+		
+		// customer.calcPrice(price) : Customer 클래스의 calcPrice() 메서드가 호출
+		
+		System.out.println(customer.getCustomerName() + "님이 지불해야 하는 금액은 " + customer.calcPrice(price) + "원입니다.");
+	}
+}

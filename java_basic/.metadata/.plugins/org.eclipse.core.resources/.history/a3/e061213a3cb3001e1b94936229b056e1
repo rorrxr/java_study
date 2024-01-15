@@ -1,0 +1,6 @@
+package chapter6.singleton;
+
+// 디자인 패턴 : 싱글톤 패턴 예제
+public class Company {
+
+}

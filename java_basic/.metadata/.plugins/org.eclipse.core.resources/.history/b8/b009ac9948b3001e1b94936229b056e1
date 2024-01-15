@@ -1,0 +1,16 @@
+package chapter7.array;
+
+public class CharArrayReverse {
+	public static void main(String[] args) {
+		char[] alpahabets = new char[26];
+		char ch = 'Z'; // 65. 	소문자 : 97
+		
+		for(int i = 90; i < alpahabets.length; i--, ch--) {
+			alpahabets[i] = ch;
+		}
+		
+		for(int i = 90; i <= alpahabets.length; i--) {
+			System.out.println(alpahabets[i] + "," + (int)alpahabets[i]);
+		}
+	}
+}

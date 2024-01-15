@@ -1,0 +1,17 @@
+package chapter8.inheritance;
+
+public class Customer {
+	protected int customerId;
+	protected String customerName;
+	protected String customerGrade;
+	int bonusPoint; // 접근자 default
+	double bonusRadio; // 접근자 default
+	public Customer(int customerId) {
+		super();
+		this.customerId = customerId;
+		this.customerName = customerName;
+		
+	}
+	
+	
+}

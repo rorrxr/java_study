@@ -1,0 +1,11 @@
+package chapter7.array;
+
+// 배열 : 동일한 데이터타입으로 구성된 연속적인 기억장소를 하나로 관리
+// 배열은 참조타입이며, 객체이다. (암기)
+public class ArrayTest {
+
+	public static void main(String[] args) {
+		
+	}
+
+}
