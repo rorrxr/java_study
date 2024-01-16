@@ -1,0 +1,5 @@
+package chapter9.abstractex;
+
+public abstract class Computer {
+
+}

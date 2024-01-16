@@ -1,0 +1,9 @@
+package chapter10.Interfaceex;
+
+// 인터페이스
+// 상속 목적
+// 추상 메서드로 구성
+
+public class Calc {
+
+}

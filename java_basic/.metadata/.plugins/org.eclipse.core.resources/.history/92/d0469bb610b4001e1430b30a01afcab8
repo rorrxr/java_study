@@ -1,0 +1,29 @@
+package chapter8.polymophism;
+
+// 도형
+class Shape{
+	void draw() {
+		System.out.println("draw Shape");
+	}
+}
+
+// 원
+class Circle extends Shape{
+	
+}
+
+// 사각형
+class Rectange extends Shape{
+	
+}
+
+// 삼각형
+class Triangle extends Shape{
+	
+}
+
+public class ShapeTest {
+	public static void main(String[] args) {
+		
+	}
+}

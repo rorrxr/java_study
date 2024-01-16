@@ -1,0 +1,27 @@
+package chapter8.polymophism;
+
+// 도형
+class Shape{
+	
+}
+
+// 원
+class Circle{
+	
+}
+
+// 사각형
+class Rectange{
+	
+}
+
+// 삼각형
+class Triangle{
+	
+}
+
+public class ShapeTest {
+	public static void main(String[] args) {
+		
+	}
+}

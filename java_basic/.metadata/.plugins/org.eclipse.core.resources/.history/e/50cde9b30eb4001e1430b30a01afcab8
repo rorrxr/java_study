@@ -1,0 +1,14 @@
+package chapter8.polymophism;
+
+public class AnimalTest2 {
+	public static void main(String[] args) {
+		Animal animal = new Human();
+		animal.move();
+		
+		animal = new Tiger();
+		animal.move();
+		
+		animal = new Eagle();
+		animal.move();
+	}
+}

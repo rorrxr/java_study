@@ -1,0 +1,56 @@
+package chapter8.polymophism;
+
+// 동물 클래스
+// 하나의 파일에 4개의 클래스가 써있지만, 컴파일을 하면 4개의 클래스 파일이 생성된다.
+class Animal {
+	// 상속받은 Animal  부모 클래스의 move 메소드 재정의
+	public void move() {
+		System.out.println("동물이 움직입니다.");
+	}
+}
+
+class Human extends AnimalTest1{
+	
+	// 상속받은 Animal  부모 클래스의 move 메소드 재정의
+	@Override
+	public void move() {
+		System.out.println("사람이 두 발로 걷습니다.");
+	}
+	
+	public void readBook() {
+		System.out.println("사람이 책을 읽습니다.");
+	}
+}
+
+class Tiger extends AnimalTest1{
+	
+	// 상속받은 Animal  부모 클래스의 move 메소드 재정의
+	@Override
+	public void move() {
+		System.out.println("호랑이가 네 발로 뜁니다.");
+	}
+	
+	public void hunting() {
+		System.out.println("호랑이가 사냥을 합니다");
+	}
+}
+
+class Eagle extends AnimalTest1{
+
+	// 상속받은 Animal  부모 클래스의 move 메소드 재정의
+	@Override
+	public void move() {
+		System.out.println("독수리가 하늘을 납니다");
+	}
+	
+	// Eagle만의 메소드
+	public void flying() {
+		System.out.println("독수리가 날개를 쭉 펴고 멀리 날아갑니다.");
+	}
+}
+
+public class AnimalTest1{
+	public static void main(String[] args) {
+		
+	}
+}

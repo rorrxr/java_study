@@ -1,0 +1,20 @@
+package chapter10.multiInterfaceex;
+
+public class MyClassTest {
+
+	public static void main(String[] args) {
+		MyClass mClass = new MyClass();
+		
+		X xClass = xClass;
+		xClass.x();
+		
+		Y yClass = yClass;
+		yClass.x();
+		
+		MyInterface iClass = mClass;
+		iClass.myMethod();
+		iClass.x();
+		iClass.y();
+	}
+
+}

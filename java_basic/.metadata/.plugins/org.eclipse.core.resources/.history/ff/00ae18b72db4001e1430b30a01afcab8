@@ -1,0 +1,19 @@
+package chapter9.finalex;
+
+public class Parent {
+
+}
+
+class Child extends Parent {
+	
+}
+
+
+class TestA {
+	
+}
+
+
+class TestB extends TestA {
+	
+}

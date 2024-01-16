@@ -1,0 +1,18 @@
+package chapter9.abstractex;
+
+// 추상클래스를 상속받는 자식 클래스는 추상클래스의 추상메서드를 반드시 구현(재정의) 해야 한다는 문법 규칙
+public class DeskTop extends Computer{
+
+	@Override
+	public void display() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void typing() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}

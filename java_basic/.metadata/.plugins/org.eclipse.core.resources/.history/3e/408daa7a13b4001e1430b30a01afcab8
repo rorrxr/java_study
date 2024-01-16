@@ -1,0 +1,61 @@
+package chapter8.polymophism;
+
+// 도형
+class Shape{
+	void draw() {
+		System.out.println("draw Shape");
+	}
+}
+
+// 원
+class Circle extends Shape{
+
+	@Override
+	void draw() {
+		System.out.println("draw Circle");
+	}
+	
+	void circle() {
+		System.out.println("원 입니다.");
+	}
+	
+}
+
+// 사각형
+class Rectange extends Shape{
+	@Override
+	void draw() {
+		System.out.println("draw Rectange");
+
+	}
+	void rectange() {
+		System.out.println("사각형 입니다.");
+	}
+}
+
+// 삼각형
+class Triangle extends Shape{
+	@Override
+	void draw() {
+		System.out.println("draw Triangle");
+
+	}
+	void triangle() {
+		System.out.println("삼각형 입니다.");
+	}
+}
+
+public class ShapeTest {
+	
+	
+	public static void main(String[] args) {
+		Shape shape1 = new Circle();
+		if(shape1 instanceof Circle) { // shape1 변수가 Circle 클래스이면
+			// 부모 클래스 객체로 자식 클래스의 객체에 대입
+			// 다운 캐스팅 : 작은 데이타타입 = (작은 데이터타입)큰데이타타입;
+			Circle c = (Circle) shape1;
+			c.circle();
+		}
+		
+	}
+}

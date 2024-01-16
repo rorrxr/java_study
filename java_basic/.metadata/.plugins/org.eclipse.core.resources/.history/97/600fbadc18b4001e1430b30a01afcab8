@@ -1,0 +1,6 @@
+package chapter9.abstractex;
+
+// 추상클래스를 상속받는 자식 클래스는
+public class DeskTop extends Computer{
+
+}

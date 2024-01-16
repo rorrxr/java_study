@@ -1,0 +1,21 @@
+package chapter8.polymophism;
+
+// 동물 클래스
+// 하나의 파일에 4개의 클래스가 써있지만, 컴파일을 하면 4개의 클래스 파일이 생성된다.
+public class Animal {
+	public void move() {
+		System.out.println("동물이 움직입니다.");
+	}
+}
+
+class Human{
+	
+}
+
+class Tiger{
+	
+}
+
+class Eagle{
+	
+}

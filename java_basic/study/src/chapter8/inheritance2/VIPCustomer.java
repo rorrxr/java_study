@@ -1,10 +1,12 @@
 package chapter8.inheritance2;
 
+import chapter8.inheritance.Customer;
 
 // Customer 클래스를 상속받아 VIP Customer 클래스를 설계
 // 자식 클래스
 // super 키워드는 부모클래스를 가르킨다.
-public class VIPCustomer{
+// 주석 부분을 해제하면 protected, default 접근자 접근 및 접근 에러를 확인 가능
+public class VIPCustomer extends Customer{
 	private int agentID;
 	double saleRatio;
 
@@ -13,7 +15,7 @@ public class VIPCustomer{
 		// 컴파일 과정에서 super() 메서드가 생성된다.
 		// 부모 클래스 Customer의 생성자를 호출. 즉 Customer()
 		customerGrade = "VIP";
-		bonusRatio = 0.05;
+		//bonusRatio = 0.05;
 		saleRatio = 0.1;
 		System.out.println("VIPCusomer() 생성자 호출");
 	}
@@ -21,7 +23,7 @@ public class VIPCustomer{
 	public VIPCustomer(int customerId, String customerName, int agentID){
 		super(customerId, customerName);
 		customerGrade = "VIP";
-		bonusRatio = 0.05;
+		//bonusRatio = 0.05;
 		saleRatio = 0.1;
 		this.agentID = agentID;
 		System.out.println("VIPCusomer(int, String) 생성자 호출");
@@ -32,7 +34,7 @@ public class VIPCustomer{
 	@Override
 	public int calcPrice(int price){
 		System.out.println("==== VIPCustomer.calcPrice ====");
-		bonusPoint += price * bonusRatio;
+		//bonusPoint += price * bonusRatio;
 		return price - (int)(price * saleRatio);
 	}
 

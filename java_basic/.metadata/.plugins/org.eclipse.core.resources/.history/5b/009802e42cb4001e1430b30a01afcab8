@@ -1,0 +1,6 @@
+package chapter9.finalex;
+
+// 여러 자바파일에서 공유(static)하는 상수값 정의하기
+public class Define {
+
+}
