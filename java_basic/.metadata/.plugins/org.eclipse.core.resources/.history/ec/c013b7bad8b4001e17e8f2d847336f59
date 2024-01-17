@@ -1,0 +1,6 @@
+package chapter11.object;
+
+public class Student {
+	int studentID;
+	String studentName;
+}

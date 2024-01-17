@@ -1,0 +1,38 @@
+package chapter11.object;
+
+// 객체 복사
+// 얕은 복사
+// 깊은 복사
+
+class Point{
+	int x;
+	int y;
+	
+	public Point(int x, int y) {
+		super();
+		this.x = x;
+		this.y = y;
+	}
+	
+	
+	@Override
+	public String toString() {
+		return "원점은 " + point + "이고, 반지름은 " + radius + "입니다.";
+	}
+	
+}
+// Circle 클래스를 이용하여, 객체 생성하고, 객체 복사 작업을 하는 경우
+// 반드시 Cloneable 인터페이스를 사용해야 한다. (문법 규칙)
+
+class Circle implements Cloneable{
+	
+}
+
+public class ObjectCloneTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

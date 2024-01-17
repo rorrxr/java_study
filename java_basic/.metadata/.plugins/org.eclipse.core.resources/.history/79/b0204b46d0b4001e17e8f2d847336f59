@@ -1,0 +1,25 @@
+package chapter11.object;
+
+class Book /* extends Object*/{
+	
+	int bookNumber;
+	String bookTitle;
+	
+	// 생성자
+	public Book(int bookNumber, String bookTitle) {
+		//super(); //컴파일 과정에서 자동 생성. 상위 글래스의 생성자 호출
+		this.bookNumber = bookNumber;
+		this.bookTitle = bookTitle;
+	}
+	
+	
+}
+
+public class ToStringEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

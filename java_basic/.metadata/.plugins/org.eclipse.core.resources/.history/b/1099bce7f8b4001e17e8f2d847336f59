@@ -1,0 +1,13 @@
+package chapter11.classex;
+
+public class StringClassTest {
+
+	public static void main(String[] args) {
+		// String 클래스를 참조하는 객체
+		
+		Class strClass = Class.forName("java.lang.String");
+		
+		strClass.getConstructors();
+	}
+
+}

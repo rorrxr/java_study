@@ -1,0 +1,16 @@
+package chapter11.classex;
+
+import java.lang.reflect.Constructor;
+
+public class StringClassTest {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+		// String 클래스를 참조하는 객체
+		Class strClass = Class.forName("java.lang.String");
+		
+		// java.lang.reflect.Constructor[] cons = strClass.getConstructors();
+		Constructor[] cons = strClass.getConstructors();
+
+		
+	}
+}

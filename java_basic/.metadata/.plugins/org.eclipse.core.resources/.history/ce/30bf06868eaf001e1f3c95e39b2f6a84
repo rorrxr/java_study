@@ -1,8 +1,0 @@
-package chapter2;
-
-public class ImpliciteConversion {
-	public static void main(String[] args) {
-		// 형변환 (Casting)
-		// 묵시적 형변환 예제
-	}
-}

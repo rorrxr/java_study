@@ -1,0 +1,9 @@
+package chapter11;
+
+// Object 클래스
+// 최상위 클래스
+// 클래스를 생성하면,
+public class Student /* extends Object */ {
+	int studentID;
+	String studentName;
+}

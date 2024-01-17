@@ -1,0 +1,24 @@
+package chapter11.object;
+
+class Student {
+	int studentId;
+	String studentName;
+	public Student(int studentId, String studentName) {
+		super();
+		this.studentId = studentId;
+		this.studentName = studentName;
+	}
+	@Override
+	public String toString() {
+		return studentId + ", " + studentName;
+	}
+	
+	
+	
+}
+
+public class EqualTest {
+	public static void main(String[] args) {
+		
+	}
+}

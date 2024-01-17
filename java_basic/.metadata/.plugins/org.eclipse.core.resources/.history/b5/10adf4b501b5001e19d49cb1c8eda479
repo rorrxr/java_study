@@ -1,0 +1,40 @@
+package chapter12;
+
+class Person{
+	
+}
+
+class Book{
+	
+}
+
+public class GenericIntroBasic {
+
+	public static void main(String[] args) {
+		// Object 클래스 : 모든 클래스를 자동상속 한다.
+		// 클래스는 참조 타입에 해당한다.
+		// 가장 큰 데이터 타입이다.
+		// 데이터 타입 : 기억장소를 생성.
+		// 기억장소에 데이터를 저장하고 읽어올 수가 있다.
+		
+		// 기억장소 : 기본 데이터타입(숫자, 문자, 논리), 참조타입이 해당하는 모든 데이터는 저장 가능.
+		
+		// 저장. 묵시적 형변환.		 Object o1 = (Object 생략) 데이터
+		// 1) 기본 데이터타입
+		Object o1 = 10; // Object o1 = (Object) 10;
+		Object o2 = 3.14;
+		Object o3 = true;
+		Object o4 = 'A';
+		
+		// 2) 참조타입
+		Person ps = new Person();
+		Book book = new Book();
+		
+		Object o5 = ps;
+		Object o6 = book;
+		
+		// 읽기. 명시적 형변환.		 원래 데이터타입 변수 = (원래 데이터타입) Object 객체; Object o1 = (Object) 데이터;
+		int a1 = o1;
+	}
+
+}

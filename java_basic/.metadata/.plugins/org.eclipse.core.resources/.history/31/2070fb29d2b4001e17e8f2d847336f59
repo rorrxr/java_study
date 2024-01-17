@@ -1,0 +1,12 @@
+package chapter11.object;
+
+class Student {
+	int studentId;
+	String studentName;
+}
+
+public class EqualTest {
+	public static void main(String[] args) {
+		
+	}
+}

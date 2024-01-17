@@ -1,0 +1,13 @@
+package chapter12.Generics2;
+
+public class GenericMethod {
+
+	//제너릭 기능이 적용된 메서드
+	public static <T, V> double
+	
+	
+	public static void main(String[] args) {
+
+	}
+
+}
