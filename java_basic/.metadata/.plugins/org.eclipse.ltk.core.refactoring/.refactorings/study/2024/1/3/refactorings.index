@@ -12,3 +12,14 @@
 1705467481463	Rename type 'IntegerTest'
 1705474591126	Rename package 'chapter12.Generic'
 1705475918360	Rename type 'Power'
+1705549381950	Copy compilation unit
+1705553795233	Copy compilation unit
+1705553814264	Rename type 'MemberArrayListTest'
+1705557488013	Copy package
+1705557498242	Delete element
+1705557507998	Copy compilation units
+1705557520503	Rename type 'HashSetTest'
+1705557526951	Rename type 'MemberHashSet'
+1705557537990	Rename type 'MemberHeshSetTest'
+1705559139233	Copy compilation unit
+1705565631204	Rename package 'chapter13.lamda'

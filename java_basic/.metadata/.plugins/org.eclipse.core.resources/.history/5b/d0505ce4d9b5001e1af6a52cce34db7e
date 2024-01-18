@@ -1,0 +1,16 @@
+package chapter13.lambda;
+
+public class LambdaBasic {
+	
+	// 메서드
+	int add(int x, int y) {
+		return x + y;
+	}
+	
+	// 메서드를 람다식 문법표현
+	void methodA() {
+		
+		
+	}
+	
+}

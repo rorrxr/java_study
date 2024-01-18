@@ -1,0 +1,23 @@
+package chapter12.collection.arraylist;
+
+import java.util.ArrayList;
+
+import chapter12.collection.Member; // collection 패키지에 있으므로 import 해야 한다.
+
+public class MemberArrayList {
+	private ArrayList<Member> arrayList; // ArrayList 선언
+
+	public MemberArrayList(ArrayList<Member> arrayList) {
+		arrayList = new ArrayList<Member>();
+	}
+	
+	public void addMember(Member member) {
+		arrayList.add(member);
+	}
+	
+	public boolean removeMember(int memberId) {
+		return false;
+	}
+	
+	
+}

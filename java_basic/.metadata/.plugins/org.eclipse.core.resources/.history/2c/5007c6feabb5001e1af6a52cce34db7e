@@ -1,0 +1,10 @@
+package chapter12.collection.linkedlist;
+
+public class LinkedListTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

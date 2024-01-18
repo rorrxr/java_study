@@ -1,0 +1,10 @@
+package chapter12.collection.arraylist;
+
+public class QueTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

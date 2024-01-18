@@ -1,0 +1,16 @@
+package chapter13.lambda;
+
+/*
+// 함수형 인터페이스를 사용하면 생략 가능
+public class TestMyNumber implements MyNumber{
+	
+}
+*/
+
+public class TestMyNumber {
+	public static void main(String[] args) {
+		// MyNumber max = 추상메서드 구현 작업을 람다식으로 문법표현; 
+		MyNumber max = (x, y) -> (x > y) ? x : y;
+		
+	}
+}

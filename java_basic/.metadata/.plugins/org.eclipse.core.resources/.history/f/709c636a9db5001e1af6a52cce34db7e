@@ -1,0 +1,45 @@
+package chapter12.collection.arraylist;
+
+import java.util.ArrayList;
+
+import chapter12.collection.Member; // collection 패키지에 있으므로 import 해야 한다.
+
+// Collection 인터페이스 - List 인터페이스
+// List 인터페이스 특징? 저장순서를 유지(인덱싱 방식). 값 중복 허용
+// ArrayList : List 인터페이스를 구현
+
+public class MemberArrayList {
+	private ArrayList<Member> arrayList; // ArrayList 선언
+
+	public MemberArrayList(ArrayList<Member> arrayList) {
+		arrayList = new ArrayList<Member>(); // Member형으로 선언한 ArrayList 생성
+	}
+	
+	public void addMember(Member member) {
+		arrayList.add(member); // ArrayList에 회원을 추가하는 메서드
+	}
+	
+	// 해당 아이디를 가진 회원을 ArrayList에서 찾아 제거함
+	public boolean removeMember(int memberId) {
+		for(int i = 0; i < arrayList.size(); i++) {
+			Member member = arrayList.get(i); // get 메서드로 회원을 순차적으로 가져옴
+			int tempId = member.getMemberId();
+			
+			if(tempId == memberId) { // 회원아이디가 매개 변수와 일치한다면
+				arrayList.remove(i); // 해당 회원을 삭제
+				return true;
+			}
+		}
+		// 반복문이 끝날 떄까지 아이디를 찾지 못한 경우 실행		
+		System.out.println(memberId + "가 존재하지 않습니다.");
+		return false;
+	}
+	
+	// 전체 회원을 출력하는 메서드
+	public void showAllMember() {
+		for(Member member : arrayList) {
+			System.out.println(member);
+		}
+		System.out.println();
+	}
+}

@@ -1,0 +1,19 @@
+package chapter13.innerclass;
+
+// 내부 클래스
+
+class OutClass{
+	
+	
+	
+}
+
+
+public class InnerTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

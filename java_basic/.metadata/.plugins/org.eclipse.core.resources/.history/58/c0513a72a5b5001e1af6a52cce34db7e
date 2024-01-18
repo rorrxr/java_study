@@ -1,0 +1,19 @@
+package chapter12.collection.arraylist;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+// Queue 인터페이스 : FIFO(First Input First Output)
+public class QueTest {
+
+	public static void main(String[] args) {
+		Queue<Integer> queue = new LinkedList<Integer>();
+		System.out.println(queue.add(1));
+		System.out.println(queue.add(2));
+		System.out.println(queue.add(3));
+		System.out.println(queue.add(4));
+		
+		System.out.println(queue.toString());
+	}
+
+}

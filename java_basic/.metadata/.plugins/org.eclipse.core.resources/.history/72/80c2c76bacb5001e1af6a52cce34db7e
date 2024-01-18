@@ -1,0 +1,15 @@
+package chapter12.collection.linkedlist;
+
+import java.util.LinkedList;
+
+// List 인터페이스를 구현한 LinkedList 클래스
+public class LinkedListTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LinkedList<String> myList = new LinkedList<String>();
+		
+		myList.add("A");
+	}
+
+}

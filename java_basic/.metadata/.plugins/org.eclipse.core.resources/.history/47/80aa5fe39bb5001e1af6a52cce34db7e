@@ -1,0 +1,11 @@
+package chapter12.collection.arraylist;
+
+// ArrayList 클래스 사용법
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

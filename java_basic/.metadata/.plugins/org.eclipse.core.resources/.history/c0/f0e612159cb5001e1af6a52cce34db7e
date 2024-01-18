@@ -1,0 +1,38 @@
+package chapter12.collection.arraylist;
+
+import java.util.ArrayList;
+
+import chapter12.collection.Member;
+
+// ArrayList 클래스 사용법
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+		ArrayList<Member> a1 = new ArrayList<Member>();
+		
+		// 데이터 추가. add()
+		
+		a1.add(new Member(1, "손흥민"));
+		a1.add(new Member(2, "김민재"));
+		a1.add(new Member(3, "황희찬"));
+		a1.add(new Member(4, "이강인"));
+		
+		// 읽기. get(인덱스) 
+		for(int i = 0; i < a1.size(); i++) {
+			System.out.println(a1.get(1));
+		}
+		
+		// 제거. remover(인덱스)
+		a1.remove(2);
+		
+		// 읽기. get(인덱스)
+		for(int i = 0; i < a1.size(); i++) {
+			System.out.println(a1.get(1));
+		}
+		
+		Member memberSon = a1.get(0);
+		System.out.println(memberSon);
+		
+	}
+
+}

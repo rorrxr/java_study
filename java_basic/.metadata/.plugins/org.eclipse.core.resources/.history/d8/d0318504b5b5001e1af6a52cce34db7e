@@ -1,0 +1,13 @@
+package chapter12.collection.hashset;
+
+import java.util.HashSet;
+
+// set 인터페이스를 구현한 클래스 : HashSet 클래스
+// 저장 순서를 관리 안 한다. 데이터값이 중복 허용을 안 한다.
+public class HashSetTest {
+
+	public static void main(String[] args) {
+		HashSet<String> hashSet = new HashSet<String>();
+	}
+
+}
