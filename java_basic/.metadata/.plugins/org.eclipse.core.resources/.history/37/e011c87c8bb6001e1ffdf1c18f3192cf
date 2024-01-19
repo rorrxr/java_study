@@ -1,0 +1,6 @@
+package chapter14.exception;
+
+// AutoCloseable 인터페이스 사용.
+public class AutoCloseObj implements AutoCloseable{
+
+}

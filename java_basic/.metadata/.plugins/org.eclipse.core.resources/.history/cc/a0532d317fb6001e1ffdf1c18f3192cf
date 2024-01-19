@@ -1,0 +1,14 @@
+package chapter14.exception;
+
+public class NullException {
+
+	public static void main(String[] args) {
+		String str = null;
+		try {
+			System.out.println(str.toString());
+		}catch(Exception e) {
+			
+		}
+	}
+
+}

@@ -1,0 +1,34 @@
+package chapter13.stream;
+
+public class TravelCustomer {
+	private String name;
+	private int age;
+	private int price;
+	
+	// 3개 파라미터를 이용한 생성자
+	public TravelCustomer(String name, int age, int price) {
+		this.name = name;
+		this.age = age;
+		this.price = price;
+	}
+	// 3개 getter 메서드
+	
+	public String getName(String name) {
+		return name;
+	}
+	
+	public int getAge(int age) {
+		return age;
+	}
+	
+	public int getPrice(int Price) {
+		return price;
+	}
+	
+	
+	// toString() 재정의
+	
+	public String toString() {
+		return name + age + price;
+	}
+}

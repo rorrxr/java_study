@@ -1,0 +1,25 @@
+package chapter15.stream.inputsteam;
+
+import java.io.File;
+
+public class FileTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		File file = new File("C:\\Dev\\workspace\\java_basic\\study\\src\\chapter15\\stream\\other");
+		file.createNewFile();
+		
+		System.out.println(file.isFile()); // file 객체가 참조하는 대상이 파일인지 체크
+		System.out.println(file.isDirectory()); // file 객체가 참조하는 대상이 폴더인지 체크
+		
+		System.out.println(file.getName());
+		System.out.println(file.getAbsolutePath());
+		System.out.println(file.getPath());
+		System.out.println(file.canRead());
+		System.out.println(file.canWrite());
+		
+		
+	}
+
+}

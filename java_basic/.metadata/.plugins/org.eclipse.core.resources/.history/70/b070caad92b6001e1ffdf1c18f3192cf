@@ -1,0 +1,27 @@
+package chapter14.exception;
+
+// 사용자정의 예외 클래스 만들기
+// 회사의 업무 기능 구현
+public class IDFormatTest {
+	
+	private String userID;
+	
+	public String getUserID() {
+		return userID;
+	}
+	
+	public void setUserID(String userID) {
+		if(userID == null) {
+			// 사용자정의 예외 클래스
+			
+		}else if(userID.length() < 8 || userID.length() > 20) {
+			// 사용자정의 예외 클래스
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

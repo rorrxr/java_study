@@ -1,0 +1,17 @@
+package chapter13.lambda;
+
+public class TestStringConcat {
+	
+	String s1 = "Hello";
+	String s2 = "World";
+	
+	// 1) StringConcat 인터페이스를 구현한 클래스 객체 생성
+	StringConcatImpl concat1 = new StringConcatImpl();
+	concat1.makeString(s1, s2);
+	
+	
+	// 2) 함수형 인터페이스이므로 람다 문법 적용하여 사용.
+	// 함수형 인터페이스 변수 = 람다식;
+	StringConcat concat2 = (s, v) -> System.out.println(s + "," + y);
+	concat2.makeString(s1, s2);
+}

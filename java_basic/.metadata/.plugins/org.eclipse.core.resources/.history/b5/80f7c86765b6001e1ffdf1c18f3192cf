@@ -1,0 +1,16 @@
+package chapter13.lambda;
+
+public class TestLambda {
+
+	public static void main(String[] args) {
+		// 함수형 인터페이스를 람다식 문법으로 구현
+		PrintString lambaStr = s -> System.out.println(s);
+		String str1 = "Hello";
+		lambaStr.showString(str1);
+		lambaStr.showString("Hello lambda_1");
+	}
+	
+	public static void showMyString(PrintString p) { //메서드명 (함수형인터페이스 변수)
+		p.showString("Hello lambda_2");
+	}
+}

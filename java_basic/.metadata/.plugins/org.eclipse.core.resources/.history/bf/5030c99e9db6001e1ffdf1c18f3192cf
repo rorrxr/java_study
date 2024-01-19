@@ -1,0 +1,9 @@
+package chapter15.stream.inputsteam;
+
+public class ScannerTest {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

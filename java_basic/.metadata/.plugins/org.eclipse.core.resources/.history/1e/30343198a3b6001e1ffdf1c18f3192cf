@@ -1,0 +1,11 @@
+package chapter15.stream.inputsteam;
+
+public class SystemInTest1 {
+	public static void main(String[] args) {
+		System.out.println("알파벳 하나를 입력하고, [enter]를 누르세요.");
+		
+		int i;
+		
+		System.in();
+	}
+}

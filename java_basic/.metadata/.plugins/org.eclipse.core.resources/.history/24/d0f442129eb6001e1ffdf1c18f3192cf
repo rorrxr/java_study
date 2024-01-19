@@ -1,0 +1,11 @@
+package chapter15.stream.inputsteam;
+
+import java.util.Scanner;
+
+public class ScannerTest {
+
+	public static void main(String[] args) {
+		scanner = new Scanner();
+	}
+
+}

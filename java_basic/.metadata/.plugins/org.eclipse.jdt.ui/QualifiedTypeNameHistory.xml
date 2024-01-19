@@ -11,4 +11,14 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Field"/>
     <fullyQualifiedTypeName name="chapter12.Generics.Plastic"/>
     <fullyQualifiedTypeName name="chapter12.Generics.Material"/>
+    <fullyQualifiedTypeName name="chapter12.collection.Member"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Queue"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.util.HashMap"/>
+    <fullyQualifiedTypeName name="chapter12.collection.map.MemberHashMap"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="chapter13.innerclass.OutClass"/>
+    <fullyQualifiedTypeName name="chapter13.innerclass.OutClass.InStaticClass"/>
+    <fullyQualifiedTypeName name="chapter13.innerclass.OutClass.InClass"/>
 </qualifiedTypeNameHistroy>

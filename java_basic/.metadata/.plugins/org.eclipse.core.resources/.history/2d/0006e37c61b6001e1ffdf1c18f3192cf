@@ -1,0 +1,11 @@
+package chapter13.lambda;
+
+public class TestStringConcat {
+	
+	String s1 = "Hello";
+	String s2 = "World";
+	
+	// 1)
+	StringConcatImp1 concat1 = new StringConcatImp1();
+	concat1.makeString(s1, s2);
+}

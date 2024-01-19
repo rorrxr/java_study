@@ -1,0 +1,22 @@
+package chapter14.exception;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+// 예외 전가 (예외처리 미루기)
+public class ThrowsException {
+
+	// 메서드를 호출한 쪽으로 예외가 넘어간다.
+	public Class loadClass(String fileName, String className) 
+			throws FileNotFoundException, ClassNotFoundException {
+		FileInputStream fis = new FileInputStream(fileName);
+		Class c = Class.forName(className);
+		return c;
+	}
+	
+	public static void main(String[] args) {
+		ThrowsExcepton test = new ThrowsException();
+		test.loadClass("a.txt", "java.lang.String");
+	}
+
+}

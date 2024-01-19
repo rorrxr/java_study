@@ -1,0 +1,10 @@
+package chapter13.stream;
+
+// 스트림 : 배열 또는 컬렉션을 대상으로 하는 기술
+public class IntArrayTest {
+
+	public static void main(String[] args) {
+		int[] arr = {1, 2, 3, 4, 5};
+	}
+
+}

@@ -1,0 +1,9 @@
+package chapter13.lambda;
+
+public class TestStringConcat {
+	
+	String s1 = "Hello";
+	String s2 = "World";
+	
+	
+}

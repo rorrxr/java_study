@@ -1,0 +1,12 @@
+package chapter14.exception;
+
+public class ArrayExceptionHandling {
+	public static void main(String[] args) {
+		int[] arr = new int[5]; // 힙 영역에 int형 기억장소 5개 생성.
+		
+		// arr[0] ~ arr[4] 힙 영역에 생성된 기억장소 요소를 가리키는 이름
+		
+		arr[5] = 10;
+		System.out.println("테스트");
+	}
+}

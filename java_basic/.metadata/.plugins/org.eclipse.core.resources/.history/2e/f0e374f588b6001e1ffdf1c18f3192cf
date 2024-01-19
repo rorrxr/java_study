@@ -1,0 +1,21 @@
+package chapter14.exception;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+
+public class ExceptionHandling1 {
+
+	public static void main(String[] args) {
+		
+		FileInputStream fis = null;
+		
+		try {
+			fis = new FileInputStream("a.txt");
+		}catch(FileNotFoundException e) {
+			e.printStackTrace(); // 예외정보를 출력
+		}
+		
+		System.out.println("프로그램 종료");
+	}
+
+}
