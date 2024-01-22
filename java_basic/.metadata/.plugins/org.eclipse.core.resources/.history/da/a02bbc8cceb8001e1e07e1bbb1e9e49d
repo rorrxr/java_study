@@ -1,0 +1,15 @@
+package chapter15.stream.writer;
+
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+
+public class FileWriterTest {
+	public static void main(String[] args) {
+		try(Writer fw = new FileWriter("writer.txt")){
+			fw.write('A');
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+}

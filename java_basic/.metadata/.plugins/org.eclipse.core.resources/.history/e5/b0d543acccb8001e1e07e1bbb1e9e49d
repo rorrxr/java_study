@@ -1,0 +1,18 @@
+package chapter15.stream.reader;
+
+import java.io.IOException;
+import java.io.Reader;
+import java.io.FileReader;
+
+public class FileReaderTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try(Reader fr = new FileReader("reader.text"){
+			
+		}catch(IOException e) {
+			
+		}
+	}
+
+}

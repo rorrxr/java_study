@@ -1,0 +1,7 @@
+package chapter15.stream.decorator;
+
+public class BufferedStreamTest {
+	public static void main(String[] args) {
+		
+	}
+}

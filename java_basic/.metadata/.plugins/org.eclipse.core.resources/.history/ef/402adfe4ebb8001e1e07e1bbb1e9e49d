@@ -1,0 +1,16 @@
+package chapter15.stream.serialization;
+
+// 직렬화 예제
+/*
+ 1) Serializable : 단순하게 객체 상태 정보를 읽고 쓰는데 사용.
+ 2) Externalizable : 개발자가 구현해야 할 구현(재정의)메서드가 존재. 
+ */
+
+public class ExternalizableTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

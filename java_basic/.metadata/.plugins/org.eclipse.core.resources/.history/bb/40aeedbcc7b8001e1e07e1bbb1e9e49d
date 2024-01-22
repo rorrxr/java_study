@@ -1,0 +1,18 @@
+package chapter15.stream.outputsteam;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+// 출력 스트림 : 배열 사용하여 출력하기.
+public class FileOutputStreamTest2 {
+
+	public static void main(String[] args) {
+		FileOutputStream fos = new FileOutputStream("output2.txt", true);
+		try(fos) {
+			
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

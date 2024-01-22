@@ -1,0 +1,10 @@
+package chapter15.stream.decorator;
+
+import java.io.FileInputStream;
+
+// 보조 스트림 : 메인 스트림에 추가하여 작업하는 특징을 갖고 있다.
+public class InputStreamReaderTest {
+	public static void main(String[] args) {
+		FileInputStream fis = new FileInputStream("reader.txt");
+	}
+}

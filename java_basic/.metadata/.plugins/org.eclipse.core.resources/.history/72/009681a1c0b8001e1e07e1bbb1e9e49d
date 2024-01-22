@@ -1,0 +1,29 @@
+package chapter15.stream.inputsteam;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+// 파일의 내용을 끝까지 읽기 (1byte씩 읽기)
+public class FileInputStreamTest2 {
+
+	public static void main(String[] args) {
+		// AutoCloseable 인터페이스를 구현한 클래스만 사용가능
+		// close()메서드 호출
+		try (FileInputStream fis = new FileInputStream(C:\\Dev\\workspace\\java_basic\\study\\src\\chapter15\\stream\\inputsteam\\"input.txt")){
+			int i;
+			// fis.read : 1byte씩 읽어와서, 정수코드값으로 변환. 읽지 못하면 -1
+			while((i = fis.read()) != -1) {
+				System.out.println((char)i);
+			}
+			System.out.println("완료");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace(); //예외관련 메시지 출력
+		}catch (IOException e) {
+			e.printStackTrace(); //예외관련 메시지 출력
+		}
+		
+	}
+
+}

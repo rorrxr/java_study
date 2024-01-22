@@ -1,0 +1,25 @@
+package chapter15.stream.outputsteam;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+// 출력 스트림 : 배열 사용하여 출력하기.
+public class FileOutputStreamTest2 {
+
+	public static void main(String[] args) {
+		FileOutputStream fos = new FileOutputStream("output2.txt", true);
+		try(fos) {
+			byte[] bs = new byte[26];
+			byte data = 65; // 'A' 아스키코드값
+			
+			// 배열에 알파벳 26개 문자 아스키코드값을 저장
+			for(int i = 0; i < bs.length; i++) {
+				bs[i] = data;
+				data++;
+			}
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

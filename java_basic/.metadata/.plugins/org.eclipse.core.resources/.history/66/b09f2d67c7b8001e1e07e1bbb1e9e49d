@@ -1,0 +1,11 @@
+package chapter15.stream.outputsteam;
+
+// 출력 스트림 : 배열 사용하여 출력하기.
+public class FileOutputStreamTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

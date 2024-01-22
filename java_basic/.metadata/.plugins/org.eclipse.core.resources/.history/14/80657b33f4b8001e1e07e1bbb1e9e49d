@@ -1,0 +1,9 @@
+package chapter16.sec02;
+
+public class BeepPrintExample2 {
+	public static void main(String[] args) {
+		// 짝수를 출력하는 기능(메서드)를 새로운 스레드를 생성하여 작업
+		Runnable beepTask = new BeepTask();
+		
+	}
+}

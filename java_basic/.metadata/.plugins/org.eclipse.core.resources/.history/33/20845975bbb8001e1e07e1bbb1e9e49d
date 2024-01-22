@@ -1,0 +1,11 @@
+package chapter15.stream.inputsteam;
+
+public class FileInputStreamTest1 {
+
+	public static void main(String[] args) {
+		
+		// 데이터 소스 : 파일
+
+	}
+
+}

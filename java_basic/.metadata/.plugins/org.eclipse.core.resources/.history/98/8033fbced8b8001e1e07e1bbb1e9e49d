@@ -1,0 +1,13 @@
+package chapter15.stream.decorator;
+
+// 보조 스트림
+// DataInputStream, DataOutputStream
+// 데이타타입 크기를 사용하고 읽고, 쓰는 작업을 할 때 사용
+public class DataStreamTest {
+
+	public static void main(String[] args) {
+		DataInputStream dis = new DataInputStream(null);
+
+	}
+
+}

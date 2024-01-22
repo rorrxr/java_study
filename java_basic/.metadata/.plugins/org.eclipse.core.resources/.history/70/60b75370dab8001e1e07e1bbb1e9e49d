@@ -1,0 +1,39 @@
+package chapter15.stream.decorator;
+
+import java.io.DataOutputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+// 보조 스트림
+// DataInputStream, DataOutputStream
+// 데이타타입 크기를 사용하고 읽고, 쓰는 작업을 할 때 사용
+public class DataStreamTest {
+
+	public static void main(String[] args) {
+
+		try (
+				FileOutputStream fos = new FileOutputStream("data.txt");
+				DataOutputStream dos = new DataOutputStream(fis)
+			){
+				
+				// 데이터 저장 순서가 중요.
+				dos.writeByte(100); // 1Byte 크기로 100이 저장
+				dos.writeChar('A'); // 2Byte 크기로 'A'; data.txt 저장
+				dos.writeInt(10); // 4Byte 크기로 100이 data.txt 저장
+				dos.writeFloat(3.14F); // 4Byte 실수 크기
+				dos.writeUTF("TEST"); // 문자열로 저장
+
+				System.out.println(dos.readByte());
+				System.out.println(dos.readChar());
+				System.out.println(dos.readInt());
+				System.out.println(dos.readFloat());
+				System.out.println(dos.readUTF());
+				
+			}catch(IOException e) {
+				e.printStackTrace();
+			}
+		
+		
+	}
+
+}

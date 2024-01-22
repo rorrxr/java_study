@@ -1,0 +1,64 @@
+package chapter15.stream.serialization;
+
+import java.io.Externalizable;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInput;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutput;
+import java.io.ObjectOutputStream;
+
+// 직렬화 예제
+/*
+ 1) Serializable : 단순하게 객체 상태 정보를 읽고 쓰는데 사용.
+ 2) Externalizable : 개발자가 구현해야 할 구현(재정의)메서드가 존재. 
+ */
+
+class Dog implements Externalizable{
+	String name;
+	
+	public Dog() {}
+	
+	@Override
+	public void writeExternal(ObjectOutput out) throws IOException{
+		// 필드를 저장 시 디테일한 작업을 하고자 할 때 사용.
+		
+		out.writeUTF(name);
+	}
+	
+	@Override
+	public void readExternal(ObjectInput in) throws IOException, ClassNotFoundException{
+		// 필드를 저장 시 디테일한 작업을 하고자 할 때 사용.
+		
+		name = in.readUTF();
+	}
+	
+	public String toString() {
+		return name;
+	}
+}
+
+public class ExternalizableTest {
+
+	public static void main(String[] args) throws IOException, ClassNotFoundException {
+		Dog myDog = new Dog();
+		myDog.name = "멍멍이";
+		
+		FileOutputStream fos = new FileOutputStream("external.out");
+		ObjectOutputStream oos = new ObjectOutputStream(fos);
+		
+		try(fos; oos){
+			oos.writeObject(myDog);
+		}catch(IOException e) {
+			e.printStackTrace();
+		}
+		
+		FileInputStream fis = new FileInputStream("external.out");
+		ObjectInputStream ois = new ObjectInputStream(fis);
+		
+		Dog dog = (Dog)ois.readObject();
+		System.out.println(dog);
+	}
+
+}

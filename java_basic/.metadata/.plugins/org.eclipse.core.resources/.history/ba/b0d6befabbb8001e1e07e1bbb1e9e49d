@@ -1,0 +1,30 @@
+package chapter15.stream.inputsteam;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class FileInputStreamTest1 {
+
+	public static void main(String[] args) {
+		
+		// 데이터 소스 : 파일
+		
+		FileInputStream fis = null;
+		
+		try {
+			fis = new FileInputStream("input.txt");
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}finally {
+			try {
+				fis.close();
+			}catch(IOException e){
+				e.printStackTrace();
+			}
+		}
+		
+	}
+
+}

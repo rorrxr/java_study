@@ -1,0 +1,5 @@
+package chapter15.stream.decorator;
+
+public class InputStreamReaderTest {
+
+}

@@ -1,0 +1,5 @@
+package chapter16.sec02.threadname;
+
+public class ThreadB {
+
+}

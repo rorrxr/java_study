@@ -1,0 +1,10 @@
+package chapter16.sec02.threadname;
+
+public class ThreadNameExample {
+
+	public static void main(String[] args) {
+		// 아래 코드가 실행이 되면, main() 메서드를 관리
+		Thread mainThread = Thread.currentThread();
+	}
+
+}

@@ -1,0 +1,14 @@
+package chapter15.stream.inputsteam;
+
+import java.io.FileInputStream;
+
+// 파일의 내용을 끝까지 읽기
+public class FileInputStreamTest2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FileInputStream fis = new FileInputStream("input.txt");
+		
+	}
+
+}
