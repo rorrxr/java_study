@@ -1,8 +1,0 @@
-package chapter6.singleton;
-
-public class Person {
-	String ssn;
-	String name;
-	int age;
-	String addr;
-}

@@ -1,0 +1,18 @@
+package chapter16.sec02.yield;
+
+public class YieldExample {
+
+	public static void main(String[] args) {
+
+		// 스레드 객체 생성. 스레드 상태 : new
+		ThreadA threadA = new ThreadA();
+		ThreadB threadB = new ThreadB();
+
+		// 스레드 상태 : Runnable
+		threadA.start();
+		threadB.start();
+		
+		
+	}
+
+}

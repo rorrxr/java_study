@@ -1,0 +1,5 @@
+package chapter16.sec02.daemon;
+
+public class AutoSaveThread {
+
+}

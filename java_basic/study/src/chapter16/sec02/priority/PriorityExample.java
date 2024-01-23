@@ -1,5 +1,11 @@
 package chapter16.sec02.priority;
 
+/*
+스레드 우선순위
+: cpu 점유율 더 받을 수 있는 의미
+우선순위 : 1~10 기본값 5 
+ */
+
 public class PriorityExample {
 
 	public static void main(String[] args) {

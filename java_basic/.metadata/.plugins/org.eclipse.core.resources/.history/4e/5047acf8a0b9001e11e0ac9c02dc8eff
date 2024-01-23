@@ -1,0 +1,11 @@
+package chapter16.sec02.join;
+
+public class SumThread /*extends 다른 클래스*/ implements Runnable{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+	
+}

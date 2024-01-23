@@ -1,6 +1,0 @@
-package chapter8.inheritance;
-
-// Customer 클래스를 상속받아 VIP Customer 클래스를 설계
-public class VIPCustomer extends Customer{
-
-}

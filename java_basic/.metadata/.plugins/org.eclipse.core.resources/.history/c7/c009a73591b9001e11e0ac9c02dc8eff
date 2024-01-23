@@ -1,0 +1,6 @@
+package chapter16.sec02.syncronized;
+
+// 스레드 클래스
+public class User2 extends Thread {
+
+}

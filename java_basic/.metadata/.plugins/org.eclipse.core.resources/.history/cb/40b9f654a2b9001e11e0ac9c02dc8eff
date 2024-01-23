@@ -1,0 +1,22 @@
+package chapter16.sec02.join;
+
+public class SumThread /*extends 다른 클래스*/ implements Runnable{
+
+	private long sum;
+	
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+
+	}
+
+	public long getSum() {
+		return sum;
+	}
+
+	public void setSum(long sum) {
+		this.sum = sum;
+	}
+	
+	
+}

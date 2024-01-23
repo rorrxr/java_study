@@ -5,12 +5,11 @@ package chapter16.sec02;
  프로세스
  스레드 : 자바기준. main() 메서드를 관리하는 이름도 동일한 main 스레드를 기본적으로 제공
  * */
+// 스레드를 상속 및 구현하는 클래스 정의
+// 스레드 클래스 방법 1)
 public class BeepTask implements Runnable{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
+	// 실행이 가능한 상태 (Runnable) : 실행 대기 상태
 
 	@Override
 	public void run() {

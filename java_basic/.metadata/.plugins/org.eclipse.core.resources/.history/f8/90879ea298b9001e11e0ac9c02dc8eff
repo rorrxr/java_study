@@ -1,0 +1,21 @@
+package chapter16.sec02.syncronized;
+
+// 자원으로 사용할 클래스
+public class Calculator {
+	private int memory;
+	public int getMemory() {
+		return memory;
+	}
+	
+	// memory 필드가 공유 자원
+	// 공유자원을 가지고 있는 메서드를 동기화 작업 처리
+	public synchronized void setMemory(int memory) {
+		this.memory = memory;
+		try {
+			Thread.sleep(2000); // 2초간 일시정지. User1 스레드 상태 : timed_waiting 상태
+		}catch(InterruptedException e) {
+			
+		}
+		System.out.println(Thread.currentThread().getName() + ": " + this.memory);
+	}
+}

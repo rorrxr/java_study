@@ -1,8 +1,0 @@
-package chapter6.singleton;
-
-public class CompanyTest {
-	public static void main(String[] args) {
-		//객체를 생성
-		Company com1 = new Company();
-	}
-}

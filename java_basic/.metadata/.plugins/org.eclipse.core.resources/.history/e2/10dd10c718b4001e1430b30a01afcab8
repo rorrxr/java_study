@@ -1,5 +1,0 @@
-package chapter9.abstractex;
-
-public abstract class DeskTop extends Computer{
-
-}

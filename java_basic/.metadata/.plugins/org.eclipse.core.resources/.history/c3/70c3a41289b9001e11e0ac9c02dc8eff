@@ -1,0 +1,13 @@
+package chapter16.sec02.priority;
+
+public class ThreadPoriority {
+
+	public static void main(String[] args) {
+		Thread threadA = new ThreadA();
+		Thread threadB = new ThreadB();
+		
+		threadA.start();
+		threadB.start();
+	}
+
+}

@@ -1,0 +1,5 @@
+package chapter16.sec02.threadgroup;
+
+public class WorkThread {
+
+}

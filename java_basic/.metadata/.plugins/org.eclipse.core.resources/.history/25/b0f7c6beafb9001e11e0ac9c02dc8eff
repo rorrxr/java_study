@@ -1,0 +1,8 @@
+package chapter16.sec02.threadgroup;
+
+public class WorkThread extends Thread{
+
+	public WorkThread(ThreadGroup threadGroup, String threadName) {
+		super(threadGroup, threadName);
+	}
+}

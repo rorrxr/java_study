@@ -1,9 +1,0 @@
-package chapter7.basic;
-
-public class PersonTest {
-	Person p1 = new Person();
-	p1.a = 10;
-	p1.b = 20;
-	
-
-}

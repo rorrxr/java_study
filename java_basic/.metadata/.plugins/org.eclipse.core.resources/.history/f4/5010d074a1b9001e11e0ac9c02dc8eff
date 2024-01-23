@@ -1,0 +1,15 @@
+package chapter16.sec02.join;
+
+public class JoinExample {
+
+	public static void main(String[] args) {
+		
+		Runnable sumThread = new SumThread();
+		Thread thread = new Thread(sumThread);
+		
+		thread.start();
+		
+		System.out.println("1~100의 합 : " + sumThread);
+	}
+
+}

@@ -1,0 +1,12 @@
+package chapter16.sec02.daemon;
+
+public class DaemonExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		AutoSaveThread autoSaveThread = new AutoSaveThread();
+		autoSaveThread.setDaemon(true); // autoSaveThread 스레드는 데몬 스레드(보조)
+		autoSaveThread.start();
+	}
+
+}

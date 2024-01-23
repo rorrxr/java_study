@@ -1,7 +1,0 @@
-package chapter6.singleton;
-
-// 디자인 패턴 : 싱글톤 패턴 예제
-public class Company {
-	// 클래스 안에서 자신의 static 멤버로 객체를 생성.
-	private static Company instance = new Company();
-}

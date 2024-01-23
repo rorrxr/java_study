@@ -1,0 +1,23 @@
+package chapter16.sec02.join;
+
+public class JoinExample {
+
+	public static void main(String[] args) {
+		
+		Runnable sumThread = new SumThread();
+		Thread thread = new Thread(sumThread);
+		
+		thread.start();
+		
+		// thread 스레드가 완료되고나서 동작해야 한다.
+		
+		try {
+			thread.join();
+		}catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		System.out.println("1~100의 합 : " + sumThread.getSum());
+	}
+
+}

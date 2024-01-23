@@ -1,0 +1,10 @@
+package chapter16.sec02.threadgroup;
+
+// 스레드 그룹 생성 및 스레드 객체 생성 예제
+public class ThreadGroupExample {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

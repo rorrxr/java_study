@@ -1,0 +1,15 @@
+package chapter16.sec02.threadgroup;
+
+public class ThreadInfoExample {
+
+	public static void main(String[] args) {
+		AutoSaveThread autoSaveThread = new AutoSaveThread();
+		autoSaveThread.setName("AutoSaveThread");
+		autoSaveThread.setDaemon(true); // 데몬 스레드 (보조)
+		autoSaveThread.start();
+		
+		Map<Thread, StackTraceElement[]> map = Thread.getAllStackTraces();
+		
+	}
+
+}

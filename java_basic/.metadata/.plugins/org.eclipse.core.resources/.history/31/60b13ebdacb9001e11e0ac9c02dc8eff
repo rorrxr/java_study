@@ -1,0 +1,23 @@
+package chapter16.sec02.daemon;
+
+public class AutoSaveThread extends Thread {
+
+	private void save() {
+		// TODO Auto-generated method stub
+		System.out.println("작업 내용을 저장함");
+	}
+	
+	@Override
+	public void run() {
+		while(true) {
+			
+			try {
+				Thread.sleep(1000); // 다른 스레드에서 현재 AutoSaveThread 스레드를 대상으로 Interrup 메서드 호출
+			}catch(InterruptedException e) {
+				break;
+			}//try- catch문 종료
+			save();
+		}// while문 종료
+		
+	}
+}

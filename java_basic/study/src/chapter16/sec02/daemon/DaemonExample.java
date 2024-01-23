@@ -1,0 +1,19 @@
+package chapter16.sec02.daemon;
+
+public class DaemonExample {
+
+	public static void main(String[] args) {
+		// main 스레드가 주 스레드가 된다.
+		AutoSaveThread autoSaveThread = new AutoSaveThread();
+		autoSaveThread.setDaemon(true); // autoSaveThread 스레드는 데몬 스레드(보조)
+		autoSaveThread.start();
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			
+		}
+		System.out.println("메인 스레드 종료");
+	}
+
+}
